@@ -27,7 +27,7 @@ export const sites = [
     code: ["React JS v18", "Redux Toolkit", "React Hooks", "SCSS"],
     description: [
       "Cart page",
-      "Production page",
+      "Product page",
       "Search, Sort, Filtering",
       "Cross-browser",
       "Adaptive",
