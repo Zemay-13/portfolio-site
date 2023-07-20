@@ -3,16 +3,9 @@ import robyImg from "../assets/img/priviews/roby.png";
 import todosImg from "../assets/img/priviews/todo.png";
 import gameImg from "../assets/img/priviews/education-game.png";
 import motivationImg from "../assets/img/priviews/motivation.png";
+import pizzatutImg from "../assets/img/priviews/pizzatut.png";
 
 export const sites = [
-  {
-    name: "Alivio",
-    imageUrl: alivioImg,
-    url: "https://alivio-landing.vercel.app/",
-    design: "Figma",
-    code: ["HTML", "SCSS", "JS"],
-    description: ["BEM", "Cross-browser", "Adaptive"],
-  },
   {
     name: "Education Game",
     imageUrl: gameImg,
@@ -26,6 +19,29 @@ export const sites = [
       "Adaptive",
     ],
   },
+  {
+    name: "PIZZATUT",
+    imageUrl: pizzatutImg,
+    url: "https://pizzatut-site.vercel.app/",
+    design: "Figma",
+    code: ["React JS v18", "Redux Toolkit", "React Hooks", "SCSS"],
+    description: [
+      "Cart page",
+      "Production page",
+      "Search, Sort, Filtering",
+      "Cross-browser",
+      "Adaptive",
+    ],
+  },
+  {
+    name: "Alivio",
+    imageUrl: alivioImg,
+    url: "https://alivio-landing.vercel.app/",
+    design: "Figma",
+    code: ["HTML", "SCSS", "JS"],
+    description: ["BEM", "Cross-browser", "Adaptive"],
+  },
+
   {
     name: "Roby",
     imageUrl: robyImg,
