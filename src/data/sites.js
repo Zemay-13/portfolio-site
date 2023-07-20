@@ -32,7 +32,7 @@ export const sites = [
     url: "https://roby-landing.vercel.app/",
     design: "Figma",
     code: ["HTML", "SCSS", "JS"],
-    description: ["BEM", "Cross-browser", "Adaptive"],
+    description: ["BEM", "Cross-browser"],
   },
 
   {
@@ -59,7 +59,7 @@ export const sites = [
   {
     name: "Motivational microservice",
     imageUrl: motivationImg,
-    url: "https://education-game.vercel.app/auth/signin",
+    url: "https://zemay-13.github.io/motivation-site/",
     design: "Figma",
     code: ["HTML", "CSS", "JS"],
     description: ["Microservice", "Generation phrase", "Adaptive"],
