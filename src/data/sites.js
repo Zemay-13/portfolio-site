@@ -24,7 +24,13 @@ export const sites = [
     imageUrl: pizzatutImg,
     url: "https://pizzatut-site.vercel.app/",
     design: "Figma",
-    code: ["React JS v18", "Redux Toolkit", "React Hooks", "SCSS"],
+    code: [
+      "React JS v18",
+      "Redux Toolkit",
+      "React Router v6",
+      "React Hooks",
+      "SCSS",
+    ],
     description: [
       "Cart page",
       "Product page",
@@ -57,7 +63,7 @@ export const sites = [
     url: "https://todo-list-eight-lilac-49.vercel.app/",
     design: "Figma",
     code: [
-      "ReactJS",
+      "ReactJS v18",
       "React Hooks",
       "CSS-Modules/SCSS",
       "React-icons",
