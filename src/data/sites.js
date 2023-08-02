@@ -4,6 +4,7 @@ import todosImg from "../assets/img/priviews/todo.png";
 import gameImg from "../assets/img/priviews/education-game.png";
 import motivationImg from "../assets/img/priviews/motivation.png";
 import pizzatutImg from "../assets/img/priviews/pizzatut.png";
+import flybookingImg from "../assets/img/priviews/flybooking.png";
 
 export const sites = [
   {
@@ -37,6 +38,28 @@ export const sites = [
       "Search, Sort, Filtering",
       "Cross-browser",
       "Adaptive",
+    ],
+  },
+  {
+    name: "Flybooking",
+    imageUrl: flybookingImg,
+    url: "https://flybooking-site.vercel.app/",
+    design: "Figma",
+    code: [
+      "JS",
+      "React Date Calendar",
+      "React JS v18",
+      "Swiper React",
+      "React Router v6",
+      "React Hooks",
+      "SCSS",
+    ],
+    description: [
+      "Home page",
+      "Hotel page",
+      "Search page",
+      "Photo Slider",
+      "Cross-browser",
     ],
   },
   {
