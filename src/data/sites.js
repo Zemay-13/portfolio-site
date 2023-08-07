@@ -65,7 +65,7 @@ export const sites = [
   {
     name: "SpiceX News",
     imageUrl: spiceXImg,
-    url: "spacex-missions-task.vercel.app",
+    url: "https://spacex-missions-task.vercel.app/",
     design: "Figma",
     code: [
       "React",
