@@ -5,6 +5,7 @@ import gameImg from "../assets/img/priviews/education-game.png";
 import motivationImg from "../assets/img/priviews/motivation.png";
 import pizzatutImg from "../assets/img/priviews/pizzatut.png";
 import flybookingImg from "../assets/img/priviews/flybooking.png";
+import spiceXImg from "../assets/img/priviews/spicex.png";
 
 export const sites = [
   {
@@ -46,7 +47,6 @@ export const sites = [
     url: "https://flybooking-site.vercel.app/",
     design: "Figma",
     code: [
-      "JS",
       "React Date Calendar",
       "React JS v18",
       "Swiper React",
@@ -59,6 +59,26 @@ export const sites = [
       "Hotel page",
       "Search page",
       "Photo Slider",
+      "Cross-browser",
+    ],
+  },
+  {
+    name: "SpiceX News",
+    imageUrl: spiceXImg,
+    url: "spacex-missions-task.vercel.app",
+    design: "Figma",
+    code: [
+      "React",
+      "Redux Toolkit",
+      "RTK Query",
+      "REST API",
+      "React Hooks",
+      "SCSS",
+    ],
+    description: [
+      "Server request",
+      "Sort launches",
+      "Adaptive",
       "Cross-browser",
     ],
   },
