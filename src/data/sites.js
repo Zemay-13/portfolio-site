@@ -6,14 +6,15 @@ import motivationImg from "../assets/img/priviews/motivation.png";
 import pizzatutImg from "../assets/img/priviews/pizzatut.png";
 import flybookingImg from "../assets/img/priviews/flybooking.png";
 import spiceXImg from "../assets/img/priviews/spicex.png";
-
+import nftImg from "../assets/img/priviews/hft-landing.png";
+import zepterImg from "../assets/img/priviews/zepter.png";
 export const sites = [
   {
     name: "Education Game",
     imageUrl: gameImg,
     url: "https://education-game.vercel.app/auth/signin",
     design: "Figma",
-    code: ["ReactJS 18", "Context API", "React Router v6", "CSS-Modules/SCSS"],
+    code: ["ReactJS", "Context API", "React Router", "CSS-Modules/SCSS"],
     description: [
       "User registration",
       "Game progress",
@@ -26,13 +27,7 @@ export const sites = [
     imageUrl: pizzatutImg,
     url: "https://pizzatut-site.vercel.app/",
     design: "Figma",
-    code: [
-      "React JS v18",
-      "Redux Toolkit",
-      "React Router v6",
-      "React Hooks",
-      "SCSS",
-    ],
+    code: ["React JS", "Redux Toolkit", "React Router", "React Hooks", "SCSS"],
     description: [
       "Cart page",
       "Product page",
@@ -47,11 +42,11 @@ export const sites = [
     url: "https://flybooking-site.vercel.app/",
     design: "Figma",
     code: [
-      "React Date Calendar",
-      "React JS v18",
+      "React JS",
       "Swiper React",
       "React Router v6",
       "React Hooks",
+      "React Date Calendar",
       "SCSS",
     ],
     description: [
@@ -61,6 +56,14 @@ export const sites = [
       "Photo Slider",
       "Cross-browser",
     ],
+  },
+  {
+    name: "Nft education",
+    imageUrl: nftImg,
+    url: "https://nft-landing-chi.vercel.app/",
+    design: "Figma",
+    code: ["JS", "React", "React Hooks", "SCSS", "Vite"],
+    description: ["Adaptive", "Cross-browser"],
   },
   {
     name: "SpiceX News",
@@ -81,6 +84,14 @@ export const sites = [
       "Adaptive",
       "Cross-browser",
     ],
+  },
+  {
+    name: "Zepter",
+    imageUrl: zepterImg,
+    url: "https://zepter-shop-fp8h-30wlp11c7-bebzhyzh.vercel.app/",
+    design: "Figma",
+    code: ["HTML", "SCSS", "JS", "BEM"],
+    description: ["Home page", "Catalog page", "Product page", "Cross-browser"],
   },
   {
     name: "Alivio",
