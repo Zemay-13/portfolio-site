@@ -66,7 +66,7 @@ export const sites = [
     description: ["Adaptive", "Cross-browser"],
   },
   {
-    name: "SpiceX News",
+    name: "SpaceX News",
     imageUrl: spiceXImg,
     url: "https://spacex-missions-task.vercel.app/",
     design: "Figma",
